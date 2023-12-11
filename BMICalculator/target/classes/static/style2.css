@@ -1,0 +1,13 @@
+body {
+    background-color: #e0e0e0;
+}
+
+h2 {
+    color: #007bff;
+}
+
+p span {
+    color: #28a745;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}

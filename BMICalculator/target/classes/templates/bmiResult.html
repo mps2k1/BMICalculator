@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>BMI Result</title>
+  <link rel="stylesheet" type="text/css" th:href="style2.css">
+  <!-- Dodaj pozostałe style tutaj -->
+</head>
+<body>
+
+<h2>BMI Result</h2>
+
+<p>Your BMI value is: <span th:text="${bmiValue}"></span></p>
+<p>You are in the category: <span th:text="${bmiCategory}"></span></p>
+
+<!-- You can add more information or customize the presentation as needed -->
+
+</body>
+</html>
